@@ -1,0 +1,52 @@
+.tgl {
+    display: none;
+}
+.tgl-btn {
+    margin-top: 3px;
+    background: #227447;
+    border-radius: 2em;
+    padding: 2px;
+    display: block;
+    width: 4em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+    .tgl, .tgl:after, .tgl-btn {
+        box-sizing: border-box;
+    }
+    .tgl-btn:after{
+        position: relative;
+        display: block;
+        content: "";
+        width: 50%;
+        height: 100%;
+    }
+
+    .tgl-btn:after {
+        left: 0;
+        border-radius: 50%;
+        background: #fff;
+        -webkit-transition: all .5s ease;
+        transition: all .5s ease;
+    }
+
+
+
+.tgl:checked + .tgl-btn:after {
+    left: 50%;
+}
+
+.tgl:checked + .tgl-btn {
+    background: #C6EFCE;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+}

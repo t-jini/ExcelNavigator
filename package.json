@@ -1,0 +1,29 @@
+{
+  "name": "excel_navigator",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "enzyme": "^2.8.2",
+    "react-addons-test-utils": "^15.5.1",
+    "react-scripts": "^1.0.2"
+  },
+  "dependencies": {
+    "office-ui-fabric-react": "^1.14.3",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.0",
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-bootstrap": "^0.31.1",
+    "react-dom": "^15.5.0",
+    "react-redux": "^5.0.5",
+    "react-toggle": "^4.0.1",
+    "react-toggle-button": "^2.1.0",
+    "react-toggle-switch": "^2.1.4",
+    "redux": "^3.5.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test"
+  }
+}
